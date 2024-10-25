@@ -9,7 +9,7 @@
 
 ## Overview
 
-pGNN is a featurizer tool that leverages pretrained graph-neural networks (GNNs) to extract valuable information from materials structures. It aims to enhance the performance of materials property prediction models by generating highly meaningful features that can be used in a variety of machine learning tasks.
+pGNN is a featurizer tool that leverages pretrained graph-neural networks (GNNs) as a proxy to extract valuable chemical information from materials structures. It aims to enhance the performance of materials property prediction models by generating highly meaningful features that can be used in a variety of machine learning tasks.
 
 ## Available Featurizers
 
