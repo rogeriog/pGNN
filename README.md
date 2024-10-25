@@ -2,7 +2,8 @@
 <div align="center">
     <img src="img/pGNNlogo.jpg" alt="pGNN-logo"  width=200>
     <br>
-    
+</div>  
+  
 # pGNN
 
 ## Overview
