@@ -325,9 +325,10 @@ def get_Adjacent_MEGNetFeatures(structures,
                                layer_name='layer32',
                                **kwargs):
     # Check if the model file exists, if not, issue error
+    model_path = kwargs.get('model_path', '')
+    model_file = os.path.join(model_path, model_file)
     if not os.path.isfile(model_file):
         raise FileNotFoundError(f"{model_file} not found. Please train the model first.")
-         
     
     # get base folder if any from model_file
     base_folder = os.path.dirname(model_file)

@@ -1,3 +1,8 @@
+
+<div align="center">
+    <img src="img/pGNNlogo.jpg" alt="pGNN-logo"  width=200>
+    <br>
+    
 # pGNN
 
 ## Overview
@@ -8,7 +13,7 @@ pGNN is a featurizer tool that leverages pretrained graph-neural networks (GNNs)
 
 pGNN offers multiple types of feature extraction tools to provide flexibility for various use cases:
 
-- **MVLFeaturizer**: The `MVLFeaturizer` provides features extracted from various pretrained MEGNet models. These models have been trained on diverse datasets and offer reliable features for a wide range of properties. Users can choose between different intermediate layers to extract features with either a 16-neuron or 32-neuron configuration.
+- **MVLFeaturizer**: The `MVLFeaturizer` provides features extracted from various pretrained MEGNet models. These models have been trained on diverse datasets and offer reliable features for a wide range of properties. Users can choose between different intermediate layers to extract features from the regression head of the MEGNet models with either a 16-neuron or 32-neuron configuration.
 
 - **CustomMEGNetFeaturizer**: The `CustomMEGNetFeaturizer` allows users to load custom models from the custom\_models/ directory. These models can incorporate encoded chemical information derived from extensive featurizers such as MatMiner (l-MM, `MatMinerEncoded\_v1` model) and Orbital Field Matrix (l-OFM, `OFMEncoded\_v1` model), providing tailored feature extraction for diverse use cases.
 

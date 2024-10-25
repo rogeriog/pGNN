@@ -41,8 +41,8 @@ class AdjacentMEGNetFeaturizer:
     def train_adjacent_megnet(self, structures, targets, **kwargs):
         train_MEGNet_on_the_fly(structures, targets, **kwargs)
 
-    def get_features(self, structures, targets):
-        return get_Adjacent_MEGNetFeatures(structures, targets, layer_name=self.layer_name)
+    def get_features(self, structures, **kwargs):
+        return get_Adjacent_MEGNetFeatures(structures, layer_name=self.layer_name, **kwargs)
 
 # Create instances for both 'layer32' and 'layer16'
 adj_megnet = AdjacentMEGNetFeaturizer(layer_name='layer32')
